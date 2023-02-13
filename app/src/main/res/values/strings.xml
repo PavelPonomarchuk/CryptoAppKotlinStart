@@ -3,4 +3,10 @@
     <string name="desc_iv_logo_coin">Logo of coin</string>
     <string name="symbols_template">%s / %s</string>
     <string name="last_update_template">Время последнего обновления: %s</string>
+    <string name="text_slash">/</string>
+    <string name="price_template">Цена: %s</string>
+    <string name="day_min_template">Минимум за день: %s</string>
+    <string name="day_max_template">Максимум за день: %s</string>
+    <string name="last_contract_template">Последняя сделка: %s</string>
+    <string name="updated_template">Обновлено: %s</string>
 </resources>

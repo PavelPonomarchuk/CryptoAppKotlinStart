@@ -46,9 +46,9 @@ class CoinInfoAdapter(private val context: Context) :
     override fun getItemCount() = coinInfoList.size
 
     inner class CoinInfoViewHolder(itemView: View) : ViewHolder(itemView) {
-        val ivLogoCoin: ImageView = itemView.findViewById(R.id.ivLogoCoin)
+        val ivLogoCoin: ImageView = itemView.findViewById(R.id.ivLogoCoinDetails)
         val tvSymbols: TextView = itemView.findViewById(R.id.tvSymbols)
-        val tvPrice: TextView = itemView.findViewById(R.id.tvPrice)
+        val tvPrice: TextView = itemView.findViewById(R.id.tvPriceDetail)
         val tvLastUpdate: TextView = itemView.findViewById(R.id.tvLastUpdate)
     }
 
