@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    app:cardUseCompatPadding="true"
-    android:layout_margin="4dp">
+    android:layout_margin="4dp"
+    app:cardUseCompatPadding="true">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -16,10 +16,10 @@
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:layout_margin="8dp"
+            android:contentDescription="@string/desc_iv_logo_coin"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            tools:src="@mipmap/ic_launcher"
-            android:contentDescription="@string/desc_iv_logo_coin" />
+            tools:src="@mipmap/ic_launcher" />
 
         <TextView
             android:id="@+id/tvSymbols"
@@ -40,13 +40,13 @@
             android:textColor="@color/black"
             android:textSize="20sp"
             android:textStyle="bold"
-            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tvSymbols"
             tools:text="7500.62" />
 
         <TextView
-            android:id="@+id/tvLastUpdateTime"
+            android:id="@+id/tvLastUpdate"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="4dp"
